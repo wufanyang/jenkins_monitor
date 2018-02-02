@@ -1,0 +1,16 @@
+{
+    "p4" : {
+        "port": "perforce.natinst.com:1666",
+        "user": "nishbuild",
+        "client": "nishbuild-ori-seq-linux",
+        "path": "//IndustrialComm/Group/phoebe/docker/...",
+        "last_updated_change_list": "0"
+    },
+    "health_check": {
+        "max_continuous_retry_times": 3
+    },
+    "email": {
+        "from_address": "fanyang.wu@ni.com",
+        "to_address": ["fanyang.wu@ni.com"]
+    }
+}
